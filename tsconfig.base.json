@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    /* Paths */
+    "outDir": "./dist",
+
+    /* Project */
+    "target": "ESNext", // TypeScript is not used for building, allow all modern features
+    "module": "ESNext", // TypeScript is not used for building, allow all modern features
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    /* Build */
+    // `tsc` only used to build type declaration files (`.d.ts`)
+    "declaration": true,
+    // Disable build to sourcemap
+    "declarationMap": false,
+    "sourceMap": false,
+    "inlineSourceMap": false,
+
+    /* Imports */
+    "moduleResolution": "Node",
+    // Yup, we are using Node
+    "forceConsistentCasingInFileNames": true,
+    // Error out if import and file system have a casing mismatch. Recommended by TS.
+    // Significant perf increase by skipping checking .d.ts files, particularly those in node_modules. Recommended by TS.
+    "skipLibCheck": true,
+    // Allow importing .json files
+    "resolveJsonModule": true,
+
+    /* Additional */
+    "strict": true,
+    "noImplicitAny": false,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "esModuleInterop": false,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "jsx": "react"
+  },
+  "exclude": ["node_modules"]
+}
