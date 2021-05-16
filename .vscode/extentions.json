@@ -14,6 +14,7 @@
     "heybourn.headwind",
     "usernamehw.errorlens",
     "alexkrechik.cucumberautocomplete",
-    "wmaurer.change-case"
+    "wmaurer.change-case",
+    "svelte.svelte-vscode"
   ]
 }
