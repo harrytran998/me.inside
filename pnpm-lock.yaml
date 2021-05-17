@@ -19,7 +19,6 @@ specifiers:
   tsup: ^4.11.0
   typescript: ^4.2.4
   vite: ^2.3.2
-  vite-plugin-windicss: 0.16.0-beta.14
   zx: ^1.6.0
 
 devDependencies:
@@ -41,7 +40,6 @@ devDependencies:
   tsup: 4.11.0_typescript@4.2.4
   typescript: 4.2.4
   vite: 2.3.2
-  vite-plugin-windicss: 0.16.0-beta.14_vite@2.3.2
   zx: 1.7.0
 
 packages:
@@ -416,19 +414,6 @@ packages:
     dependencies:
       '@typescript-eslint/types': 4.23.0
       eslint-visitor-keys: 2.1.0
-    dev: true
-
-  /@windicss/plugin-utils/0.16.0-beta.14:
-    resolution: {integrity: sha512-Hg/+wS7W80HXJ6XKcIE/kQl9g1SjBA/4+n5vHj2BjExC9Tje3A66vOcu/QgFgiTQVY2/aYnf6NTn0Wmuh9+AFQ==}
-    dependencies:
-      debug: 4.3.2
-      fast-glob: 3.2.5
-      jiti: 1.9.2
-      magic-string: 0.25.7
-      micromatch: 4.0.4
-      windicss: 3.0.6
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /acorn-jsx/5.3.1_acorn@7.4.1:
@@ -872,18 +857,6 @@ packages:
 
   /debug/4.3.1:
     resolution: {integrity: sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==}
-    engines: {node: '>=6.0'}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-    dependencies:
-      ms: 2.1.2
-    dev: true
-
-  /debug/4.3.2:
-    resolution: {integrity: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==}
     engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
@@ -1807,11 +1780,6 @@ packages:
     resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
     dev: true
 
-  /jiti/1.9.2:
-    resolution: {integrity: sha512-wymUBR/YGGVNVRAxX52yvFoZdUAYKEGjk0sYrz6gXLCvMblnRvJAmDUnMvQiH4tUHDBtbKHnZ4GT3R+m3Hc39A==}
-    hasBin: true
-    dev: true
-
   /joycon/3.0.1:
     resolution: {integrity: sha512-SJcJNBg32dGgxhPtM0wQqxqV0ax9k/9TaUskGDSJkSFSQOEWWvQ3zzWdGQRIUry2j1zA5+ReH13t0Mf3StuVZA==}
     engines: {node: '>=10'}
@@ -1936,12 +1904,6 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       yallist: 4.0.0
-    dev: true
-
-  /magic-string/0.25.7:
-    resolution: {integrity: sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA==}
-    dependencies:
-      sourcemap-codec: 1.4.8
     dev: true
 
   /merge-stream/2.0.0:
@@ -2623,10 +2585,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /sourcemap-codec/1.4.8:
-    resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
-    dev: true
-
   /spdx-correct/3.1.1:
     resolution: {integrity: sha512-cOYcUWwhCuHCXi49RhFRCyJEK3iPj1Ziz9DpViV3tbZOwXD49QzIN3MpOLJNxh2qwq2lJJZaKMVw9qNi4jTC0w==}
     dependencies:
@@ -2967,20 +2925,6 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-plugin-windicss/0.16.0-beta.14_vite@2.3.2:
-    resolution: {integrity: sha512-AA6Zv2AKo7mmq9EkaMKevgjvwBwUo0xja6susni/+QpHVjxfpY8aNJlKjkPzBNzdZWS48uRURUhzW7vGi/PDNg==}
-    peerDependencies:
-      vite: ^2.0.1
-    dependencies:
-      '@windicss/plugin-utils': 0.16.0-beta.14
-      chalk: 4.1.1
-      debug: 4.3.2
-      vite: 2.3.2
-      windicss: 3.0.6
-    transitivePeerDependencies:
-      - supports-color
-    dev: true
-
   /vite/2.3.2:
     resolution: {integrity: sha512-QhLdOompDrfkyryCNTts9HE+eJhvhN9ibKNJ5Q8DpQai+6nOsuIlaveZNg67e1O/2QaWqXeBo82eHnAs1De2bQ==}
     engines: {node: '>=12.0.0'}
@@ -3020,12 +2964,6 @@ packages:
     resolution: {integrity: sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==}
     dependencies:
       string-width: 1.0.2
-    dev: true
-
-  /windicss/3.0.6:
-    resolution: {integrity: sha512-XO/w6VBnCdniPR1vBNlNZ9BZC2uXV7dDVUQaw/ICk0LArj3xYz6WrtePTeqjCU4085SmracEqxAA+fFoKOxKsw==}
-    engines: {node: '>= 12'}
-    hasBin: true
     dev: true
 
   /word-wrap/1.2.3:
