@@ -1,16 +1,24 @@
 {
     "version": "0.1",
     "words": [
+        "bundlesize",
+        "esno",
         "harrytran",
+        "iconify",
         "inmemory",
         "lozad",
         "patreon",
         "preinstall",
         "shipjs",
+        "slidev",
         "stylelint",
         "sveltejs",
+        "tsup",
         "vite",
         "vitejs",
+        "vitepress",
+        "vueuse",
+        "windicss",
         "yarnpkg"
     ]
 }

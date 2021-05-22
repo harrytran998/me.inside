@@ -55,7 +55,15 @@
     "html"
   ],
 
-  // Disable when validator when working with tailwindcss
+  // By default VS Code will not trigger completions when editing "string" content. Updating
+  // the `editor.quickSuggestions` setting may improve your experience
+  "editor.quickSuggestions": {
+    "other": true,
+    "strings": true,
+    "comments": false
+  },
+
+  // Disable when validator when working with windicss
   "scss.validate": false,
   "css.validate": false,
   // Git

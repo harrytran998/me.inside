@@ -33,6 +33,8 @@
     "tsup": "^4.11.0",
     "typescript": "^4.2.4",
     "vite": "^2.3.2",
+    "vite-plugin-windicss": "^0.15.10",
+    "vue": "3.0.11",
     "zx": "^1.6.0"
   },
   "engines": {
