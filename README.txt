@@ -8,7 +8,7 @@ Might be you confuse about the name of package hereHere it's the project structu
 | Codebase                                                                          |              Description               |
 | :-------------------------------------------------------------------------------- | :------------------------------------: |
 | [dionysus](https://github.com/harrytran998/me.inside/tree/main/packages/home)     |     Những cuộc vui và trải nghiệm      |
-| [hera](https://github.com/harrytran998/me.inside/tree/main/packages/hera))        |              Voice Server              |
+| [hera](https://github.com/harrytran998/me.inside/tree/main/packages/hera))        |              Talk về sex và tình cảm              |
 | [hestia](https://github.com/harrytran998/me.inside/tree/main/packages/hestia)     | Những người bạn đã từng chiến đấu cùng |
 | [olympus](https://github.com/harrytran998/me.inside/tree/main/packages/olympus)   |     Long mạch, nơi kết nối mọi thứ     |
 | [zeus](https://github.com/harrytran998/me.inside/tree/main/packages/zeus)         |               Trang home               |
