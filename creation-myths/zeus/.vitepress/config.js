@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Harlan Wilton',
+  title: 'Harry Trần',
   head: [
     ['link', { rel: 'icon', href: '/icon.svg' }],
     [

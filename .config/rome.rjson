@@ -1,0 +1,16 @@
+name: "me.inside"
+version: "^0.0.1"
+root: true
+extends: "../other-file"
+
+lint: {
+	ignore: []
+	globals: []
+}
+dependencies: {
+	exceptions: {
+		invalidLicenses: {
+			"funky-licence": ["lib@1.0.0", "lib@1.1.0", "other-lib@2.0.0"]
+		}
+	}
+}
