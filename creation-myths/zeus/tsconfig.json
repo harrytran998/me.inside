@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.base.json",
+  "extends": "../../configs/tsconfig.base.json",
   "include": ["./*.ts", "./.vitepress/**/*.ts", "./.vitepress/**/*.vue"],
   "exclude": ["**/dist/**", "node_modules"],
   "compilerOptions": {
